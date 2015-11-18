@@ -51,7 +51,7 @@ class FindDuplicates:
         # print inputFile2List
 
         i = 0
-        while i < len(inputFile2List):
+        while i < len(inputFile1List):
             if self.isItemOnList(inputFile1List[i], inputFile2List):
                 print inputFile1List[i]
             i += 1
